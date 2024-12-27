@@ -37,7 +37,7 @@ or clone the repository and run ``pip install -e .``
 inside the ``ultraplot`` folder.
 
 
-.. |build-status| image:: https://travis-ci.com/ultraplot-dev/proplot.svg?branch=master
+.. |build-status| image:: https://travis-ci.com/proplot-dev/proplot.svg?branch=master
    :alt: build status
    :target: https://app.travis-ci.com/ultraplot-dev/proplot
 
