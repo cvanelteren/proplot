@@ -6,10 +6,10 @@ from matplotlib import patheffects  as pe
 font = FontProperties(fname='./PermanentMarker-Regular.ttf')
 
 
-fs = 34
+fs = 38
 left = 0.575
 sw = 3
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize = (3, 1.25))
 ax.text(left, 0.5, "Ultra",
     fontsize = fs,
     fontproperties = font,
@@ -33,7 +33,7 @@ ax.text(left, 0.5, "Plot",
     ],
     transform = ax.transAxes)
 
-shift = 0.03
+shift = 0.033
 import colorengine as ce
 
 colors = np.linspace(0, 1, 4, 0)
@@ -41,13 +41,14 @@ colors = np.linspace(0, 1, 4, 0)
 colors = ce.vivid(colors)
 for idx, color in enumerate(colors):
     s = idx * shift
-    ax.axhline(0.41 - s, 0.59 + s, 0.9 - s, color = color,
+    ax.axhline(0.275 - 2.3 * s, 0.59 + s, 0.9 - s, color = color,
         ls = '-',
         lw = 3)
 ax.axis(False)
 fig.set_facecolor("lightgray")
 fig.savefig(
     "UltraPlotLogo.svg",
-    transparent = True
+    transparent = True,
+    bbox_inches = "tight",
     )
 fig.show()
