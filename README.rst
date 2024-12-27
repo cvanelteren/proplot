@@ -1,10 +1,10 @@
-.. image:: https://github.com/proplot-dev/proplot/blob/master/docs/_static/logo_long.svg?raw=true
-   :width: 1000px
+.. image:: UltraPlotLogo.svg
+   :width: 100%
 
 |build-status| |docs| |pypi| |code-style| |pr-welcome| |license| |gitter| |doi|
 
 A succinct `matplotlib <https://matplotlib.org/>`__ wrapper for making beautiful,
-publication-quality graphics.
+publication-quality graphics. It builds upon Proplot and transports it into the modern age (supporting mpl 3.9.0+).
 
 Documentation
 =============
@@ -20,26 +20,26 @@ Proplot is published on `PyPi <https://pypi.org/project/proplot/>`__ and
 
 .. code-block:: bash
 
-   pip install proplot
-   conda install -c conda-forge proplot
+   pip install ultraplot
+   conda install -c conda-forge ultraplot
 
 Likewise, an existing installation of proplot can be upgraded
 to the latest version with:
 
 .. code-block:: bash
 
-   pip install --upgrade proplot
-   conda upgrade proplot
+   pip install --upgrade ultraplot
+   conda upgrade ultraplot
 
 To install a development version of proplot, you can use
-``pip install git+https://github.com/proplot-dev/proplot.git``
+``pip install git+https://github.com/ultraplot-dev/ultraplot.git``
 or clone the repository and run ``pip install -e .``
-inside the ``proplot`` folder.
+inside the ``ultraplot`` folder.
 
 
-.. |build-status| image:: https://travis-ci.com/proplot-dev/proplot.svg?branch=master
+.. |build-status| image:: https://travis-ci.com/ultraplot-dev/proplot.svg?branch=master
    :alt: build status
-   :target: https://app.travis-ci.com/proplot-dev/proplot
+   :target: https://app.travis-ci.com/ultraplot-dev/proplot
 
 .. |docs| image:: https://readthedocs.org/projects/proplot/badge/?version=latest
    :alt: docs
